@@ -1,0 +1,1168 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>아이돌 트레이닝생 강점 워크샵 제안서 | MIRA HUVE</title>
+<meta name="description" content="MIRA HUVE — 7개 아이돌 트레이닝 팀을 위한 CliftonStrengths® 기반 강점 발견 워크샵 제안서">
+<style>
+:root {
+  --navy: #1B2845;
+  --navy-2: #2A3A5F;
+  --cream: #F5EFE6;
+  --cream-deep: #EAE3D4;
+  --coral: #D17B5C;
+  --coral-soft: #E8A78D;
+  --charcoal: #2C2C2C;
+  --gray: #9B9B9B;
+  --gray-2: #C9C0B0;
+  --white: #FFFFFF;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Pretendard', 'Apple SD Gothic Neo', 'Malgun Gothic', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--charcoal);
+  background: var(--cream);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a { color: inherit; text-decoration: none; }
+
+/* ===== TOP NAV ===== */
+nav.top {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: 64px;
+  background: rgba(245, 239, 230, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(27, 40, 69, 0.08);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  padding: 0 6vw;
+  justify-content: space-between;
+}
+nav.top .brand {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  color: var(--navy);
+}
+nav.top .brand span { color: var(--coral); }
+nav.top ul { list-style: none; display: flex; gap: 32px; }
+nav.top a {
+  font-size: 13px;
+  color: var(--charcoal);
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: color 0.2s ease;
+}
+nav.top a:hover { color: var(--coral); }
+@media (max-width: 880px) {
+  nav.top ul { display: none; }
+}
+
+/* ===== HERO ===== */
+.hero {
+  background: var(--navy);
+  color: var(--cream);
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 120px 8vw 80px;
+  overflow: hidden;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -10vh; right: -10vw;
+  width: 60vw; height: 60vw;
+  max-width: 700px; max-height: 700px;
+  background: radial-gradient(circle, rgba(209, 123, 92, 0.55) 0%, transparent 70%);
+  pointer-events: none;
+}
+.hero-inner {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.hero .eyebrow {
+  font-size: 12px;
+  letter-spacing: 8px;
+  color: var(--coral);
+  font-weight: 700;
+  margin-bottom: 64px;
+}
+.hero h1 {
+  font-size: clamp(36px, 5.5vw, 72px);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 28px;
+  letter-spacing: -1px;
+}
+.hero h1 .accent { color: var(--coral); }
+.hero .sub {
+  font-size: clamp(16px, 1.5vw, 22px);
+  color: var(--gray-2);
+  font-weight: 300;
+  margin-bottom: 80px;
+  max-width: 720px;
+  line-height: 1.6;
+}
+.hero .divider {
+  width: 80px; height: 3px;
+  background: var(--coral);
+  margin-bottom: 24px;
+}
+.hero .meta {
+  font-size: 13px;
+  color: var(--gray);
+  line-height: 2.1;
+  letter-spacing: 1px;
+}
+.hero .meta strong {
+  color: var(--cream);
+  display: inline-block;
+  min-width: 110px;
+  font-weight: 500;
+}
+.hero .tagline {
+  position: absolute;
+  bottom: 32px;
+  right: 0;
+  font-style: italic;
+  font-size: 13px;
+  color: var(--gray);
+}
+.hero .prepared-quote {
+  margin-left: 12px;
+  font-size: 12px;
+  font-style: italic;
+  color: var(--gray);
+  letter-spacing: 0;
+}
+
+/* ===== SECTION ===== */
+section.s {
+  padding: 120px 8vw;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.s-head {
+  display: flex;
+  align-items: baseline;
+  gap: 24px;
+  border-bottom: 1px solid var(--navy);
+  padding-bottom: 18px;
+  margin-bottom: 56px;
+}
+.s-num {
+  font-size: clamp(48px, 6vw, 80px);
+  font-weight: 300;
+  color: var(--coral);
+  letter-spacing: -2px;
+  line-height: 1;
+}
+.s-title-wrap { flex: 1; }
+.s-title-wrap small {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 4px;
+  color: var(--gray);
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.s-title-wrap h2 {
+  font-size: clamp(28px, 3.5vw, 44px);
+  color: var(--navy);
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+p.lead {
+  font-size: clamp(17px, 1.6vw, 22px);
+  color: var(--navy);
+  line-height: 1.7;
+  font-weight: 400;
+  margin-bottom: 40px;
+  padding-left: 24px;
+  border-left: 4px solid var(--coral);
+  max-width: 1000px;
+}
+
+h3.sub-h {
+  font-size: 20px;
+  color: var(--navy);
+  font-weight: 700;
+  margin: 48px 0 20px;
+  letter-spacing: -0.3px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+h3.sub-h::before {
+  content: '';
+  width: 4px; height: 22px;
+  background: var(--coral);
+}
+
+p { margin-bottom: 16px; max-width: 1000px; }
+
+/* ===== KPI CARDS ===== */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  margin: 40px 0;
+}
+.kpi {
+  background: var(--white);
+  padding: 36px 28px;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0 2px 12px rgba(27, 40, 69, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.kpi:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(27, 40, 69, 0.1);
+}
+.kpi .num {
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--coral);
+  line-height: 1;
+  margin-bottom: 12px;
+}
+.kpi .label {
+  font-size: 14px;
+  color: var(--navy);
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+.kpi .sub { font-size: 12px; color: var(--gray); }
+
+/* ===== CARD GRID ===== */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  margin: 32px 0;
+}
+.card-grid.cols-3 { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+.card-grid.cols-4 { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+
+.card {
+  background: var(--white);
+  padding: 32px 28px;
+  border-left: 3px solid var(--navy);
+  border-radius: 0 4px 4px 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateX(4px);
+  box-shadow: 0 4px 16px rgba(27, 40, 69, 0.08);
+}
+.card.coral { border-left-color: var(--coral); }
+.card .tag {
+  font-size: 11px;
+  letter-spacing: 3px;
+  color: var(--coral);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.card h4 {
+  font-size: 18px;
+  color: var(--navy);
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+.card p {
+  font-size: 14px;
+  color: var(--charcoal);
+  line-height: 1.65;
+  margin: 0;
+}
+
+/* ===== PILLARS ===== */
+.pillars {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  border-top: 2px solid var(--navy);
+  border-bottom: 2px solid var(--navy);
+  margin: 40px 0;
+  background: var(--white);
+}
+.pillar {
+  padding: 48px 32px;
+  text-align: center;
+  border-right: 1px solid var(--gray-2);
+}
+.pillar:last-child { border-right: none; }
+.pillar .icon {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--coral);
+  margin-bottom: 14px;
+}
+.pillar h4 { font-size: 18px; margin-bottom: 12px; color: var(--navy); }
+.pillar p { font-size: 14px; color: var(--charcoal); }
+
+/* ===== DOMAIN BADGES ===== */
+.domains {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 32px 0;
+}
+.domain {
+  padding: 32px 24px;
+  text-align: center;
+  color: white;
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+}
+.domain:hover { transform: translateY(-3px); }
+.domain.exec { background: #7B2D8E; }   /* Gallup Executing — Purple */
+.domain.infl { background: #E97132; }   /* Gallup Influencing — Orange */
+.domain.rel  { background: #1788C7; }   /* Gallup Relationship Building — Blue */
+.domain.stra { background: #009A50; }   /* Gallup Strategic Thinking — Green */
+.domain small {
+  display: block;
+  font-size: 10px;
+  letter-spacing: 2px;
+  opacity: 0.85;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.domain h4 { font-size: 22px; color: white; }
+
+/* ===== TABLE ===== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0;
+  background: var(--white);
+  font-size: 14px;
+}
+table thead {
+  background: var(--navy);
+  color: var(--cream);
+}
+table th, table td {
+  padding: 14px 18px;
+  text-align: left;
+  border-bottom: 1px solid #e3ddd0;
+  vertical-align: top;
+}
+table th {
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+table tbody tr:nth-child(even) { background: #faf7f0; }
+table td.label {
+  font-weight: 700;
+  color: var(--navy);
+  width: 18%;
+}
+table td.time {
+  width: 16%;
+  font-weight: 700;
+  color: var(--coral);
+}
+
+/* ===== INSIGHT ===== */
+.insight {
+  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-2) 100%);
+  color: var(--cream);
+  padding: 48px 56px;
+  margin: 40px 0;
+  border-left: 4px solid var(--coral);
+  border-radius: 0 4px 4px 0;
+}
+.insight p {
+  font-size: clamp(16px, 1.6vw, 20px);
+  line-height: 1.7;
+  color: var(--cream);
+  font-weight: 300;
+  margin: 0;
+  max-width: none;
+}
+.insight strong { color: var(--coral); font-weight: 500; }
+
+.callout {
+  background: var(--white);
+  padding: 24px 32px;
+  margin: 24px 0;
+  border-left: 3px solid var(--coral);
+  border-radius: 0 4px 4px 0;
+}
+.callout p { font-size: 14px; margin: 0; color: var(--charcoal); }
+.callout strong { color: var(--navy); }
+
+/* ===== TIMELINE ===== */
+.tline {
+  margin: 32px 0;
+  position: relative;
+}
+.tline::before {
+  content: '';
+  position: absolute;
+  left: 100px; top: 12px; bottom: 12px;
+  width: 2px;
+  background: var(--coral);
+}
+.tline-item {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 32px;
+  padding: 16px 0;
+  position: relative;
+  align-items: flex-start;
+}
+.tline-item::before {
+  content: '';
+  position: absolute;
+  left: 95px; top: 20px;
+  width: 12px; height: 12px;
+  background: var(--coral);
+  border-radius: 50%;
+  border: 3px solid var(--cream);
+  box-shadow: 0 0 0 1px var(--coral);
+}
+.tline-week {
+  font-weight: 700;
+  color: var(--navy);
+  font-size: 14px;
+  text-align: right;
+  padding-top: 4px;
+  padding-right: 24px;
+}
+.tline-body {
+  padding-left: 24px;
+}
+.tline-body h4 { font-size: 16px; color: var(--navy); margin-bottom: 4px; }
+.tline-body p { font-size: 13px; color: var(--charcoal); margin: 0; }
+
+/* ===== PRICE ===== */
+.price-table {
+  background: var(--white);
+  margin: 32px 0;
+  border-top: 2px solid var(--navy);
+}
+.price-row {
+  display: grid;
+  grid-template-columns: 200px 1fr 160px;
+  padding: 22px 28px;
+  border-bottom: 1px solid #e3ddd0;
+  align-items: baseline;
+  gap: 16px;
+}
+.price-row.total {
+  border-top: 2px solid var(--navy);
+  border-bottom: 4px double var(--navy);
+  background: var(--cream);
+  padding: 26px 28px;
+  font-weight: 700;
+}
+.price-label { color: var(--navy); font-weight: 700; font-size: 15px; }
+.price-desc { font-size: 13px; color: var(--charcoal); line-height: 1.55; }
+.price-amount {
+  text-align: right;
+  font-weight: 700;
+  color: var(--coral);
+  font-size: 16px;
+  font-variant-numeric: tabular-nums;
+}
+.price-row.total .price-amount {
+  color: var(--navy);
+  font-size: 22px;
+}
+@media (max-width: 720px) {
+  .price-row { grid-template-columns: 1fr; gap: 4px; }
+  .price-amount { text-align: left; }
+}
+
+/* ===== LIST ===== */
+ul.clean {
+  list-style: none;
+  margin: 16px 0;
+  max-width: 1000px;
+}
+ul.clean li {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 1.65;
+}
+ul.clean li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--coral);
+  font-weight: 700;
+}
+
+/* ===== CLOSING ===== */
+.closing {
+  background: var(--navy);
+  color: var(--cream);
+  padding: 140px 8vw 100px;
+  position: relative;
+  overflow: hidden;
+}
+.closing::before {
+  content: '';
+  position: absolute;
+  bottom: -10vw; left: -10vw;
+  width: 50vw; height: 50vw;
+  max-width: 600px; max-height: 600px;
+  background: radial-gradient(circle, rgba(209, 123, 92, 0.4) 0%, transparent 70%);
+}
+.closing-inner {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.closing .label {
+  font-size: 12px;
+  letter-spacing: 8px;
+  color: var(--coral);
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+.closing h2 {
+  font-size: clamp(32px, 4.5vw, 56px);
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 24px;
+  color: var(--cream);
+  letter-spacing: -1px;
+}
+.closing h2 .accent { color: var(--coral); }
+.closing .quote {
+  font-size: clamp(16px, 1.5vw, 20px);
+  color: var(--gray-2);
+  font-style: italic;
+  font-weight: 300;
+  margin-bottom: 64px;
+  max-width: 800px;
+}
+.closing .div {
+  width: 100px; height: 3px;
+  background: var(--coral);
+  margin-bottom: 24px;
+}
+.closing .brand {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  margin-bottom: 12px;
+}
+.closing .brand span { color: var(--coral); }
+.closing .tagline-q {
+  font-size: 14px;
+  color: var(--gray);
+  font-style: italic;
+  margin-bottom: 56px;
+}
+.closing .contact {
+  font-size: 14px;
+  color: var(--gray-2);
+  line-height: 2.2;
+  letter-spacing: 0.5px;
+}
+.closing .contact strong { color: var(--cream); display: inline-block; min-width: 90px; font-weight: 500; }
+.closing .cta {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 18px 40px;
+  background: var(--coral);
+  color: var(--cream);
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+.closing .cta:hover {
+  background: var(--coral-soft);
+  transform: translateY(-2px);
+}
+
+footer {
+  background: var(--navy-2);
+  color: var(--gray);
+  font-size: 12px;
+  padding: 24px 8vw;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+/* ===== TWO-COL ===== */
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin: 32px 0;
+}
+@media (max-width: 880px) {
+  .two-col { grid-template-columns: 1fr; }
+}
+
+/* ===== PHASE BIG CARDS ===== */
+.phase-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  margin: 32px 0;
+}
+.phase {
+  padding: 40px 32px;
+  border-radius: 4px;
+  background: var(--white);
+  border-left: 4px solid var(--coral);
+  position: relative;
+}
+.phase.hl {
+  background: var(--navy);
+  color: var(--cream);
+}
+.phase .tag {
+  font-size: 11px;
+  letter-spacing: 3px;
+  color: var(--coral);
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.phase h4 {
+  font-size: 22px;
+  margin-bottom: 14px;
+  font-weight: 700;
+  color: var(--navy);
+}
+.phase.hl h4 { color: var(--cream); }
+.phase p {
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--charcoal);
+  margin: 0;
+}
+.phase.hl p { color: var(--cream); }
+
+/* ===== STEP ARROWS ===== */
+.steps-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  margin: 32px 0;
+}
+
+@media (max-width: 720px) {
+  section.s { padding: 80px 6vw; }
+  .s-head { flex-direction: column; gap: 8px; }
+  .closing { padding: 80px 6vw; }
+  .price-row { padding: 18px 20px; }
+  table th, table td { padding: 10px 12px; font-size: 13px; }
+}
+
+/* ===== Reveal animation ===== */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.reveal.in {
+  opacity: 1;
+  transform: translateY(0);
+}
+</style>
+</head>
+<body>
+
+<!-- ===== TOP NAV ===== -->
+<nav class="top">
+  <div class="brand">MIRA <span>HUVE</span></div>
+  <ul>
+    <li><a href="#summary">개요</a></li>
+    <li><a href="#diagnosis">환경</a></li>
+    <li><a href="#objectives">목표</a></li>
+    <li><a href="#design">설계</a></li>
+    <li><a href="#program">프로그램</a></li>
+    <li><a href="#deliverables">산출물</a></li>
+    <li><a href="#timeline">일정</a></li>
+    <li><a href="#investment">견적</a></li>
+    <li><a href="#contact">연락</a></li>
+  </ul>
+</nav>
+
+<!-- ===== HERO ===== -->
+<header class="hero" id="top">
+  <div class="hero-inner">
+    <div class="eyebrow">PROPOSAL · 2026</div>
+    <h1>무대 위 그들의 빛은,<br>각자의 <span class="accent">강점</span>에서<br>시작됩니다.</h1>
+    <p class="sub">걸그룹 팀을 위한<br>CliftonStrengths® 기반 강점 발견 워크샵 제안</p>
+    <div class="divider"></div>
+    <div class="meta">
+      <div><strong>CLIENT</strong>JT Entertainment</div>
+      <div><strong>WORKSHOP</strong>Strengths Discovery for Girl Group</div>
+      <div><strong>PREPARED</strong>MIRA HUVE <span class="prepared-quote">"세상은 바꿀 수 없지만, 당신의 세상은 바꿀 수 있습니다."</span></div>
+      <div><strong>DATE</strong>2026. 05. 04</div>
+    </div>
+  </div>
+</header>
+
+<!-- ===== 01 ===== -->
+<section class="s reveal" id="summary">
+  <div class="s-head">
+    <div class="s-num">01</div>
+    <div class="s-title-wrap">
+      <small>EXECUTIVE SUMMARY</small>
+      <h2>제안 개요</h2>
+    </div>
+  </div>
+
+  <p class="lead">무대 위 한 사람의 빛은, 그 사람만이 가진 강점이 가장 자연스럽게 흐를 때 가장 강합니다. 이 워크샵은 걸그룹 멤버 모두가 자기 자신을 가장 정직한 언어로 마주하고, 팀 안에서 자기의 자리를 발견하는 것을 목적으로 합니다.</p>
+
+  <h3 class="sub-h">제안의 본질</h3>
+  <p>걸그룹 트레이닝은 약점을 메우는 훈련이 강합니다. 더 잘 부르고, 더 잘 추고, 더 잘 보이기 위한 시간이 대부분입니다. 그러나 데뷔 직전, 그리고 데뷔 이후의 길고 불확실한 시간을 견디게 하는 것은 결국 <strong>자기 자신을 신뢰하는 것</strong>이며, 그것은 자기 자신의 강점을 이해하는 데서부터 시작합니다. Gallup CliftonStrengths® 34는 그 강점을 객관적 언어로 만들어 줍니다.</p>
+
+  <div class="kpi-grid">
+    <div class="kpi">
+      <div class="num">8</div>
+      <div class="label">걸그룹 멤버</div>
+      <div class="sub">단일 팀 집중 진단</div>
+    </div>
+    <div class="kpi">
+      <div class="num">34</div>
+      <div class="label">CliftonStrengths Themes</div>
+      <div class="sub">Full 34 진단 기반</div>
+    </div>
+    <div class="kpi">
+      <div class="num">2h</div>
+      <div class="label">집중 워크샵</div>
+      <div class="sub">2시간 강점 강의</div>
+    </div>
+    <div class="kpi">
+      <div class="num">1h</div>
+      <div class="label">후속 지원</div>
+      <div class="sub">강점 리포트 + 디브리핑</div>
+    </div>
+  </div>
+
+  <h3 class="sub-h">이 제안서가 약속하는 것</h3>
+  <ul class="clean">
+    <li>멤버 한 명 한 명을 다른 누구의 카피가 아닌 <strong>그 사람으로서</strong> 보는 언어를 회사에 제공합니다.</li>
+    <li>한 팀의 DNA를 정밀 분석하여 <strong>리더·비주얼·메인보컬·메인댄스 포지션 추천</strong>의 객관적 근거를 제공합니다.</li>
+    <li>합숙·다국적·미성년이라는 특수성에 맞춘 <strong>운영 프로토콜</strong>을 함께 제시합니다.</li>
+  </ul>
+</section>
+
+<!-- ===== 02 ===== -->
+<section class="s reveal" id="diagnosis">
+  <div class="s-head">
+    <div class="s-num">02</div>
+    <div class="s-title-wrap">
+      <small>WHY THIS MUST BE DIFFERENT</small>
+      <h2>환경 진단</h2>
+    </div>
+  </div>
+
+  <p class="lead">일반 기업 워크샵을 그대로 적용하면, 이 워크샵은 실패합니다. 아이돌 트레이닝 환경의 4가지 특수 변수를 먼저 인식하는 것에서 출발해야 합니다.</p>
+
+  <div class="card-grid cols-4">
+    <div class="card coral">
+      <div class="tag">VARIABLE 01</div>
+      <h4>데뷔 압박과 비교의 일상</h4>
+      <p>같은 합숙소 안에서 매일 비교당하는 환경. 자신의 약점이 매일 가시화되는 동안, 자신의 강점은 잘 보이지 않습니다. 자존감과 동기의 누수가 가장 큰 리스크입니다.</p>
+    </div>
+    <div class="card coral">
+      <div class="tag">VARIABLE 02</div>
+      <h4>10대 정체성 형성기</h4>
+      <p>인지·정서 발달이 진행 중인 시기에 직업 정체성까지 동시에 요구됩니다. 강점은 이 시기 가장 빠르게 자기개념을 안정시키는 자원이 됩니다.</p>
+    </div>
+    <div class="card coral">
+      <div class="tag">VARIABLE 03</div>
+      <h4>8인조 합숙 — 좁은 거리, 큰 영향</h4>
+      <p>8명이라는 인원은 합숙·연습에서 가장 강한 케미가 나오는 동시에, 작은 마찰도 빠르게 증폭되는 규모입니다. 갈등 대부분은 "성격 차이"가 아니라 "강점 사용 방식의 차이"입니다.</p>
+    </div>
+    <div class="card coral">
+      <div class="tag">VARIABLE 04</div>
+      <h4>회사–멤버 정보 비대칭</h4>
+      <p>트레이너·매니지먼트가 멤버를 "잠재력 있음/없음"의 이진법으로 보기 쉽습니다. 강점 진단은 평가 언어를 객관적·다차원적으로 전환합니다.</p>
+    </div>
+  </div>
+
+  <h3 class="sub-h">그래서 이 워크샵의 핵심 명제</h3>
+  <div class="insight">
+    <p>"약점을 메우는 트레이닝"이 아닌 <strong>"강점을 무대 언어로 번역하는 시간"</strong>.<br>개인의 자기이해 → 팀 내 역할 명료화 → 회사의 인사이트 확보, 이 세 층위가 하루에 동시에 일어나야 의미가 있습니다.</p>
+  </div>
+
+</section>
+
+<!-- ===== 03 ===== -->
+<section class="s reveal" id="objectives">
+  <div class="s-head">
+    <div class="s-num">03</div>
+    <div class="s-title-wrap">
+      <small>OBJECTIVES &amp; KPI</small>
+      <h2>워크샵 3대 목표</h2>
+    </div>
+  </div>
+
+  <p class="lead">자기이해·멘탈케어, 포지션 인사이트, 팀빌딩 — 각각에 측정 가능한 결과(KPI)를 연결합니다.</p>
+
+  <div class="pillars">
+    <div class="pillar">
+      <div class="icon">01</div>
+      <h4>자기이해 · 멘탈케어</h4>
+      <p>"내가 잘 안 되는 이유"가 아니라 "내가 가장 자연스러운 순간"을 언어화한다.</p>
+    </div>
+    <div class="pillar">
+      <div class="icon">02</div>
+      <h4>포지션 · 역할 인사이트</h4>
+      <p>강점 데이터로 회사의 포지션 결정에 객관적 근거를 더한다.</p>
+    </div>
+    <div class="pillar">
+      <div class="icon">03</div>
+      <h4>팀워크 · 팀빌딩</h4>
+      <p>합숙 갈등의 80%는 "다름의 무지"에서 시작한다. 강점 언어로 전환한다.</p>
+    </div>
+  </div>
+
+  <h3 class="sub-h">목표별 측정 지표 (KPI)</h3>
+  <table>
+    <thead>
+      <tr><th style="width:22%;">목표</th><th>구체 결과</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="label">자기이해</td>
+        <td>워크샵 후 멤버 본인이 자신의 Top 5 강점을 자기 언어로 1분간 설명할 수 있다.</td>
+      </tr>
+      <tr>
+        <td class="label">멘탈케어</td>
+        <td>"나는 이 팀에서 어떤 가치를 더할 수 있는가"에 대한 자기효능감 점수 상승</td>
+      </tr>
+      <tr>
+        <td class="label">포지션 인사이트</td>
+        <td>회사가 리더·비주얼·메인보컬·메인댄스 후보를 강점 근거로 검토할 수 있다.</td>
+      </tr>
+      <tr>
+        <td class="label">팀워크</td>
+        <td>"함께 일할 때 지킬 3가지 약속(Team Charter)"을 강점 기반으로 도출</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="callout">
+    <p><strong>설계 원칙.</strong> KPI는 멤버를 평가하기 위함이 아닙니다. 회사가 향후 6개월 트레이닝 의사결정 시 참조할 수 있는 <em>증거 기반 자료</em>를 남기기 위한 것입니다.</p>
+  </div>
+</section>
+
+<!-- ===== 04 ===== -->
+<section class="s reveal" id="design">
+  <div class="s-head">
+    <div class="s-num">04</div>
+    <div class="s-title-wrap">
+      <small>STRENGTHS, TRANSLATED</small>
+      <h2>핵심 설계 철학</h2>
+    </div>
+  </div>
+
+  <p class="lead">CliftonStrengths® 34 테마는 강력하지만, 그대로는 10대 트레이닝생에게 멀게 느껴집니다. MIRA HUVE는 4개 영역을 <strong>"무대 언어"</strong>로 번역하여 전달합니다.</p>
+
+  <h3 class="sub-h">Gallup 4 Domains × 아이돌 무대 언어</h3>
+  <div class="domains">
+    <div class="domain exec"><small>EXECUTING</small><h4>실행력</h4></div>
+    <div class="domain infl"><small>INFLUENCING</small><h4>영향력</h4></div>
+    <div class="domain rel"><small>RELATIONSHIP</small><h4>관계형성</h4></div>
+    <div class="domain stra"><small>STRATEGIC</small><h4>전략적 사고</h4></div>
+  </div>
+
+  <table>
+    <thead>
+      <tr><th style="width:18%;">Gallup 영역</th><th style="width:20%;">아이돌 무대 언어</th><th>이 영역이 강한 멤버의 신호</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="label">실행력</td>
+        <td><strong>"꾸준함의 무대"</strong></td>
+        <td>연습량의 안정성, 매일의 루틴, 팀의 기둥. 실행력은 팀의 안정 자산이자 데뷔 후 장수의 키.</td>
+      </tr>
+      <tr>
+        <td class="label">영향력</td>
+        <td><strong>"존재감의 무대"</strong></td>
+        <td>카메라 앞에서의 장악력, 멘트의 임팩트, 팬과의 직접적 연결. 비주얼 센터/리더의 핵심 자질.</td>
+      </tr>
+      <tr>
+        <td class="label">관계형성</td>
+        <td><strong>"케미의 무대"</strong></td>
+        <td>팀 내 정서적 안전망, 팬덤과의 따뜻한 관계, 갈등 시 다리 역할. 팀의 지속 가능성을 만든다.</td>
+      </tr>
+      <tr>
+        <td class="label">전략적 사고</td>
+        <td><strong>"해석의 무대"</strong></td>
+        <td>곡 해석, 콘셉트 이해, 자기 캐릭터 디자인 능력. 아티스트로서의 독자성을 만든다.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 class="sub-h">설계 원리: 3-Step 번역</h3>
+  <div class="steps-3">
+    <div class="card">
+      <div class="tag">STEP 1</div>
+      <h4>진단 (Diagnose)</h4>
+      <p>Gallup CliftonStrengths® 34 풀 진단으로 멤버 각자의 강점 순위 1~34위 확보.</p>
+    </div>
+    <div class="card">
+      <div class="tag">STEP 2</div>
+      <h4>번역 (Translate)</h4>
+      <p>34개 테마를 무대·연습실·합숙소의 일상 언어로 재진술. 멤버가 직관적으로 받아들이는 형태로.</p>
+    </div>
+    <div class="card">
+      <div class="tag">STEP 3</div>
+      <h4>적용 (Apply)</h4>
+      <p>팀 내 역할, 무대 위 캐릭터, 팬 소통 톤까지 <em>오늘부터 사용 가능한</em> 행동 지침으로 변환.</p>
+    </div>
+  </div>
+
+  <div class="insight">
+    <p>강점 진단은 <strong>거울이 아니라 통역기</strong>입니다.<br>거울은 "당신이 어떤 사람인가"를 보여주지만, 통역기는 "당신이 가진 것을 세상이 알아들을 언어로 옮겨 줍니다." 이 워크샵은 후자를 목적합니다.</p>
+  </div>
+</section>
+
+<!-- ===== 05 ===== -->
+<section class="s reveal" id="program">
+  <div class="s-head">
+    <div class="s-num">05</div>
+    <div class="s-title-wrap">
+      <small>PROGRAM ARCHITECTURE</small>
+      <h2>프로그램 설계</h2>
+    </div>
+  </div>
+
+  <p class="lead">2시간 집중 강의 + 사전 진단 + 사후 리포트. 8명 단일 팀에 가장 효율적인 압축 호흡으로 설계했습니다.</p>
+
+  <h3 class="sub-h">전체 구조 (3-Phase)</h3>
+  <div class="phase-grid">
+    <div class="phase">
+      <div class="tag">PHASE 1 · 사전</div>
+      <h4>온라인 강점 진단</h4>
+      <p>워크샵 1주 전, 멤버 8명 전원 Gallup CliftonStrengths® 34 온라인 검사 시행.</p>
+    </div>
+    <div class="phase hl">
+      <div class="tag">PHASE 2 · 당일</div>
+      <h4>2시간 집중 강의</h4>
+      <p>강의 + 개인 결과지 해석 + 팀 강점 맵 + Team Charter 도출. 압축 2시간 구성.</p>
+    </div>
+    <div class="phase">
+      <div class="tag">PHASE 3 · 사후</div>
+      <h4>리포트 발행 + 후속</h4>
+      <p>워크샵 종료 2주 내 개인·팀 리포트 발행 → 1개월 후 트레이너 디브리핑 미팅 1회.</p>
+    </div>
+  </div>
+
+  <h3 class="sub-h">워크샵 당일 2시간 타임테이블</h3>
+  <table>
+    <thead><tr><th>시간</th><th style="width:22%;">세션</th><th>핵심 활동</th></tr></thead>
+    <tbody>
+      <tr><td class="time">14:00 — 14:10</td><td class="label">체크인</td><td>오프닝, 워크샵 가이드</td></tr>
+      <tr><td class="time">14:10 — 14:55</td><td class="label">강점 강의</td><td>"강점이란 무엇인가" 강의</td></tr>
+      <tr><td class="time">14:55 — 15:20</td><td class="label">개인 결과지 해석</td><td>개인의 34개 강점에 대한 해석</td></tr>
+      <tr><td class="time">15:20 — 15:50</td><td class="label">팀 다이얼로그</td><td>Team Charter 및 일상에 대한 강점 기반 논의</td></tr>
+      <tr><td class="time">15:50 — 16:00</td><td class="label">클로징</td><td>Q&amp;A 및 마무리</td></tr>
+    </tbody>
+  </table>
+
+</section>
+
+<!-- ===== 06 ===== -->
+<section class="s reveal" id="deliverables">
+  <div class="s-head">
+    <div class="s-num">06</div>
+    <div class="s-title-wrap">
+      <small>DELIVERABLES</small>
+      <h2>산출물 패키지</h2>
+    </div>
+  </div>
+
+  <p class="lead">워크샵 1일은 시작일 뿐입니다. 이 제안서의 가치는 워크샵 종료 후 회사 손에 무엇이 남는가에 있습니다.</p>
+
+  <div class="card-grid">
+    <div class="card coral">
+      <div class="tag">DELIVERABLE 01</div>
+      <h4>멤버 개인별 강점 리포트 (PDF)</h4>
+      <p>멤버 8명 각 1부 (총 8부). Full 34 진단 결과를 무대 언어로 재해석한 개별 리포트.</p>
+    </div>
+    <div class="card coral">
+      <div class="tag">DELIVERABLE 02</div>
+      <h4>팀 강점 맵 / 포지션 제안서 (PDF)</h4>
+      <p>팀 1부. 팀 강점 무게중심, 포지션 추천, 갈등 예방 가이드 포함.</p>
+    </div>
+  </div>
+
+</section>
+
+<!-- ===== 07 ===== -->
+<section class="s reveal" id="timeline">
+  <div class="s-head">
+    <div class="s-num">07</div>
+    <div class="s-title-wrap">
+      <small>TIMELINE &amp; TEAM</small>
+      <h2>일정 &amp; 투입 인력</h2>
+    </div>
+  </div>
+
+  <p class="lead">계약 체결 후 <strong>총 4주</strong> 운영을 권장합니다. 1~2개월 내 진행 요청에 부합하며, 8명 단일 팀 규모에 가장 효율적인 일정입니다.</p>
+
+  <h3 class="sub-h">4주 운영 로드맵</h3>
+  <div class="tline">
+    <div class="tline-item">
+      <div class="tline-week">Week 1</div>
+      <div class="tline-body">
+        <h4>킥오프 &amp; 사전 정렬</h4>
+        <p>JT ENT – 멤버 8명 명단 확정 후 이름과 이메일을 MIRA에 전달.</p>
+      </div>
+    </div>
+    <div class="tline-item">
+      <div class="tline-week">Week 2</div>
+      <div class="tline-body">
+        <h4>온라인 진단 + 결과 분석</h4>
+        <p>멤버 8명 Gallup CliftonStrengths® 34 온라인 검사. 결과 통합 분석 및 팀 사전 데이터 정리.</p>
+      </div>
+    </div>
+    <div class="tline-item">
+      <div class="tline-week">Week 3</div>
+      <div class="tline-body">
+        <h4>워크샵 당일 (2시간)</h4>
+        <p>강점 강의 → 개인 결과지 해석 → 팀 다이얼로그 → 클로징.</p>
+      </div>
+    </div>
+    <div class="tline-item">
+      <div class="tline-week">Week 4</div>
+      <div class="tline-body">
+        <h4>리포트 발행 + 트레이너 디브리핑</h4>
+        <p>개인 8부 + 팀 1부 작성, 1시간 디브리핑 미팅으로 활용 가이드 전수.</p>
+      </div>
+    </div>
+  </div>
+
+  <h3 class="sub-h">투입 인력</h3>
+  <table>
+    <thead><tr><th style="width:22%;">역할</th><th style="width:14%;">인원</th><th>책임 범위</th></tr></thead>
+    <tbody>
+      <tr><td class="label">메인 강사</td><td><strong style="color:var(--coral);">1명</strong></td><td>2시간 강의, 개인 해석 코멘트, 팀 다이얼로그 리드, 클로징, 리포트 최종 검수</td></tr>
+      <tr><td class="label">서브 퍼실리테이터</td><td><strong style="color:var(--coral);">1명</strong></td><td>정서적 안전 관리, 워크북 운영 보조, 기록</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ===== 08 ===== -->
+<section class="s reveal" id="investment">
+  <div class="s-head">
+    <div class="s-num">08</div>
+    <div class="s-title-wrap">
+      <small>INVESTMENT</small>
+      <h2>견적</h2>
+    </div>
+  </div>
+
+  <h3 class="sub-h">견적 구성</h3>
+  <div class="price-table">
+    <div class="price-row">
+      <div class="price-label">강점코드비</div>
+      <div class="price-desc">CliftonStrengths® 진단 코드 1인당 100,000원 × 멤버 8명</div>
+      <div class="price-amount">800,000</div>
+    </div>
+    <div class="price-row">
+      <div class="price-label">강의비</div>
+      <div class="price-desc">2시간 집중 강의 (강점 강의 + 개인 결과지 해석 + 팀 다이얼로그 + Team Charter)</div>
+      <div class="price-amount">1,000,000</div>
+    </div>
+    <div class="price-row">
+      <div class="price-label">리포트 발행 + 후속</div>
+      <div class="price-desc">멤버 개별 강점 리포트 + 팀 강점 리포트 + 1시간 디브리핑</div>
+      <div class="price-amount">500,000</div>
+    </div>
+    <div class="price-row total">
+      <div class="price-label">총 견적</div>
+      <div class="price-desc">VAT 별도</div>
+      <div class="price-amount">2,300,000</div>
+    </div>
+  </div>
+
+  <h3 class="sub-h">지급 조건</h3>
+  <ul class="clean">
+    <li>계약 체결 시 50% / 워크샵 종료 후 50%</li>
+    <li>강점코드비는 진단 시행 전 100% 선납</li>
+    <li>모든 금액은 VAT 별도, 세금계산서 발행</li>
+  </ul>
+</section>
+
+<!-- ===== CLOSING ===== -->
+<section class="closing" id="contact">
+  <div class="closing-inner">
+    <div class="label">CLOSING</div>
+    <h2>이 워크샵은 멤버 8명 한 명 한 명에게<br><span class="accent">"내가 왜 여기 있는가"</span>의 답을<br>자기 언어로 안겨줄 것입니다.</h2>
+    <p class="quote">그리고 그 답은, 데뷔의 모든 불확실한 시간 속에서 가장 오래 그들 옆에 남아 있을 자산이 됩니다.</p>
+
+    <div class="div"></div>
+    <div class="brand">MIRA <span>HUVE</span></div>
+    <div class="tagline-q">"세상은 바꿀 수 없지만, 당신의 세상은 바꿀 수 있습니다."</div>
+
+    <div class="contact">
+      <div><strong>CONTACT</strong>mira@mirahuve.com</div>
+      <div><strong>PROPOSED</strong>2026. 05. 04</div>
+      <div><strong>VALID</strong>제안일로부터 30일</div>
+    </div>
+
+  </div>
+</section>
+
+<footer>© 2026 MIRA HUVE · STRENGTHS CONSULTING · HUMAN · LOVE</footer>
+
+<script>
+  // Reveal-on-scroll
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+  // Active nav highlight
+  const navLinks = document.querySelectorAll('nav.top a');
+  const sections = document.querySelectorAll('section.s, header.hero, section.closing');
+  const navObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const id = entry.target.id;
+        navLinks.forEach(a => {
+          a.style.color = a.getAttribute('href') === '#' + id ? 'var(--coral)' : '';
+          a.style.fontWeight = a.getAttribute('href') === '#' + id ? '700' : '500';
+        });
+      }
+    });
+  }, { threshold: 0.4 });
+  sections.forEach(s => navObserver.observe(s));
+</script>
+
+</body>
+</html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
